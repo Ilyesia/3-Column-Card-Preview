@@ -2,8 +2,8 @@
 Feel free to pull. Make sure to update information accordingly
 
 ### Links
-* Solution URL: 
-* Live Site URL:
+* Solution URL: [https://www.frontendmentor.io/solutions/3-column-card-preview-2ZDxwEL_X]
+* Live Site URL: [https://ilyesia.github.io/3-Column-Card-Preview/]
 
 ## Process
 Mobile first design process then used media queries to easily adjust to larger resolution formats. 
