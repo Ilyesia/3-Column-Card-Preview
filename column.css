@@ -1,0 +1,142 @@
+:root {
+	--bright-orange: hsl(31, 77%, 52%);
+	--dark-cyan: hsl(184, 100%, 22%);
+	--very-dark-cyan: hsl(179, 100%, 13%);
+	--transparent-white: hsla(0, 0%, 100%, 0.75); /* paragraphs */
+	--very-light-gray: hsl(0, 0%, 95%); /* (background, headings, buttons) */
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+img {
+	max-width: 100%;
+}
+
+body {
+	font-family: "Big Shoulders Display", sans-serif;
+	font-size: 15px;
+}
+
+button {
+	font-family: "Lexend Deca", sans-serif;
+}
+
+.learnmore:hover {
+	background-color: transparent;
+	color: #fff;
+}
+
+.learnmore {
+	background-color: var(--very-light-gray);
+	border: 2px solid var(--very-light-gray);
+	border-radius: 30px;
+	padding: 10px 20px;
+	cursor: pointer;
+	transition: all 0.4s ease-in-out;
+}
+
+h2 {
+	font-family: "Big Shoulders Display". sans-serif;
+	font-weight: 700;
+	font-size: 2.5em;
+	margin: 1em, 0, 1em, 0;
+	text-transform: uppercase;
+}
+
+p {
+	font-family: "Lexend Deca", san-serif;
+	color: var(--transparent-white);
+	line-height: 1.75;
+}
+
+.left {
+	background-color: var(--bright-orange);
+	color: var(--very-light-gray);
+	border-radius: 10px 10px 0px 0px;
+}
+
+.middle {
+	background-color: var(--dark-cyan);
+	color: var(--very-light-gray);
+}
+
+.right {
+	background-color: var(--very-dark-cyan);
+	color: var(--very-light-gray);
+	border-radius: 0px 0px 10px 10px;
+}
+
+.left button {
+	color: var(--bright-orange);
+}
+
+.middle button {
+	color: var(--dark-cyan);
+}
+
+.right button {
+	color: var(--very-dark-cyan);
+}
+
+.container {
+	padding: 30px;
+}
+
+.card {
+	padding: 3em;
+}
+
+.card img {
+	margin: 20px 0px 30px 10px;
+}
+
+.card h2 {
+	margin: 0px 0px 30px 10px;
+}
+
+.card p {
+	margin: 0px 10px 30px 10px;
+}
+
+.card button {
+	margin: 0px 0px 15px 10px;
+}
+
+.attribution {
+	font-size: 15px;
+	text-align: center;
+	position: -webkit-sticky;
+	position: sticky;
+	top: 0;
+}
+
+.attribution a {
+	color: hsl(228, 45%, 44%);
+}
+
+@media (min-width: 992px) {
+	.container {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		min-height: 100vh;
+		max-width: 992px;
+		margin: auto;
+	}
+
+	.left {
+		border-radius: 10px 0 0 10px;
+	}
+
+	.right {
+		border-radius: 0 10px 10px 0;
+	}
+
+	.card p {
+		margin-bottom: 70px;
+	}
+}
